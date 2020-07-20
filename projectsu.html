@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riya Academy</title>
+    <link rel="stylesheet" href="projrctsu.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <h1>Riya Excellence Academy Online Form</h1>
+        <p>Fill the following details for the demo class</p>
+        <form>
+        <fieldset class="select">
+          <legend>Your contact information</legend>
+          <label for="name">Name</label>
+          <input type="text" placeholder="fname+lname" /><br />
+          <label for="phone">Phone Number</label>
+          <input type="tel" placeholder="enter no along with pin" /><br />
+          <label for="email">Email id</label>
+          <input type="email" placeholder="enter valid email id only" /><br />
+        </fieldset>
+
+        <fieldset class="button">
+          <legend>About your Demo class details</legend>
+          <label for="date">Requested Date</label>
+          <input type="date" /><br />
+          <label for="Number">How many friends are attending</label>
+          <input type="number" min="1" max="15" />
+          <p>which class are you looking for</p>
+          <ul>
+            <label
+              ><input type="radio" name="stream" value="10th" />10th
+              Standard</label
+            >
+            <label
+              ><input type="radio" name="stream" value="12th" /> 12th
+              Standard</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="stream"
+                value="Engineering"
+              />Engineering</label
+            >
+
+            <label><input type="radio" name="stream" value="BCA" />BCA</label>
+
+            <label><input type="radio" name="stream" value="MBBS" />MBBS</label>
+          </ul>
+          <label for="subject">which subject you are looking for</label>
+          <select name="subject" id="">
+            <option>Choose one</option>
+            <option>Maths</option>
+            <option>Science</option>
+            <option>Computer</option>
+            <option>English</option> </select
+          ><br />
+          <p class="kitu">special requests</p>
+          <textarea name="bla" id="" cols="30" rows="10"></textarea>
+          <label
+            ><input type="checkbox" checked />Add me for the notification</label
+          >
+          <button type="button">Submit</button>
+        </fieldset>
+        </form>
+      </section>
+      <aside>
+        Address
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8720600116344!2d77.6173551141347!3d12.915943519593338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1544bae9afa3%3A0x5835a61d05a00c19!2sABC%20TECHNOLOGIES%20(%20new%20building%20BTM%20Layout%20)!5e0!3m2!1sen!2sin!4v1595090037957!5m2!1sen!2sin"
+          width="350"
+          height="150"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+        <address>ABC TECHNOLOGIES ( new building BTM Layout )
+        <br><br></address>
+        <p>
+          Scan the QRCode to know about me</p>
+          <img src="./riya qr code.png" alt="" width="100" />
+        </p>
+      </aside>
+    </div>
+  </body>
+</html>
